@@ -1,8 +1,8 @@
-@import "utils/libs";
 @import "utils/vars";
 @import "utils/mixins";
 @import "utils/functions";
 @import "utils/fonts";
+@import "utils/reset";
 
 html {
 	line-height: $mainLineHeight;
@@ -69,20 +69,6 @@ section,
 	@media screen and (max-width: $phoneWidth) {
 		padding: 20px 0;
 	}
-}
-
-.wrapper {
-	display: flex;
-	flex-direction: column;
-	margin: 0 auto;
-	min-height: 100vh;
-	min-width: 100vh;
-}
-
-.content-wrapper {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
 }
 
 .container {

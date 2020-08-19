@@ -1,15 +1,16 @@
 /* Vars:================================================================= */
 
 // Font
-$mainFont: "Roboto", Helvetica, Arial, sans-serif;
+$mainFont: "OpenSans", Helvetica, Arial, sans-serif;
+$mainSecondFont: "Roboto", Helvetica, Arial, sans-serif;
 
 // Size
-$mainFontColor: #101010;
+$mainFontColor: #090000;
 $mainFontSize: 18px;
 $mainFontWeight: 400;
 $mainLineHeight: 1.4;
 
-$desktopWidth: 1280px;
+$desktopWidth: 1170px;
 $smDesktopWidth: 1024px;
 $tableWidth: 768px;
 $smTableWidth: 640px;
@@ -21,22 +22,19 @@ $smPhoneWidth: 320px;
 //---Main color
 $default-color: #ffffff;
 $primary-color: #040620;
-$secondary-color: #444ce0;
-$success-color: #26de81;
 $danger-color: #fc5c65;
-$warning-color: #fed330;
+$warning-color: #ffea00;
 $light-color: #999999;
-$purple-color: #8854d0;
+$purple-color: #8d83f9;
+
+// bg color
+$first-color: rgb(170, 85, 243);
+$second-color: rgb(17, 0, 255);
 
 // Neutral Color
-$neutral-primary: #303133;
-$neutral-regular: #606266;
-$neutral-secondary: #909399;
-$neutral-placeholder: #c0c4cc;
+$neutral-primary: #f6f5f7;
+$secondary-color: #929292;
 
-// Border Color
-$border-base: #dcdfe6;
-$border-light: #e4e7ed;
-$border-lighter: #ebeef5;
-$border-lightex: #f2f6fc;
-
+//Shadow
+$base-shadow: rgba(237, 235, 253, 0.75);
+$iphone-shadow: rgba(218, 218, 218, 0.75);

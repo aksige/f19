@@ -1,0 +1,18 @@
+.header {
+	.wrapper-content {
+		display: flex;
+	}
+	&-title {
+		font-family: $mainSecondFont;
+		font-size: rem(22);
+		font-weight: 800;
+		text-transform: capitalize;
+	}
+	&__field {
+		&-input {
+		}
+	}
+}
+g:hover {
+	stroke: blueviolet;
+}
