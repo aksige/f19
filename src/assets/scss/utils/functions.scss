@@ -1,0 +1,8 @@
+// Change solors
+@function set-text-color($color) {
+	@if (lightness($color) > 30) {
+		@return $neutral-primary;
+	} @else {
+		@return $border-base;
+	}
+}
