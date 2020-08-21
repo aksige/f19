@@ -28,13 +28,14 @@ $light-color: #999999;
 $purple-color: #8d83f9;
 
 // bg color
-$first-color: rgb(170, 85, 243);
-$second-color: rgb(17, 0, 255);
+$first-color: rgba(170, 85, 243, 0.5);
+$second-color: rgba(17, 0, 255, 0.5);
 
 // Neutral Color
-$neutral-primary: #f6f5f7;
 $secondary-color: #929292;
+$neutral-color: #f6f5f7;
 
 //Shadow
 $base-shadow: rgba(237, 235, 253, 0.75);
 $iphone-shadow: rgba(218, 218, 218, 0.75);
+$header-shadow: rgba(170, 85, 243, 0.5);
